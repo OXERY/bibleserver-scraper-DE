@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 public enum Translation {
 
-	LUT("LUT", "Luther 2017", BookChapter::getNameGerman),
+	LUT("LUT", "Luther 2017", BookChapter::getNameGerman);
 	//ELB("ELB", "Elberfelder", BookChapter::getNameGerman),
 	//HFA("HFA", "Hoffnung für alle", BookChapter::getNameGerman),
 	//SLT("SLT", "Schlachter 2000", BookChapter::getNameGerman),
