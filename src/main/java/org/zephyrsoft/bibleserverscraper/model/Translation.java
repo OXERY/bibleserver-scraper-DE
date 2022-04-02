@@ -14,7 +14,6 @@ public enum Translation {
 	GNB("GNB", "Gute Nachricht Bibel", BookChapter::getNameGerman),
 	EU("EU", "Einheitsübersetzung", BookChapter::getNameGerman),
 	NLB("NLB", "Neues Leben. Die Bibel", BookChapter::getNameGerman),
-	NEÜ("NEÜ", "Neue evangelistische Übersetzung", BookChapter::getNameGerman);
 
 	private String abbreviation;
 	private String name;
