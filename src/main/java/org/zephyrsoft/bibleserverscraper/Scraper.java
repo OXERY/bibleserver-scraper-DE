@@ -105,7 +105,7 @@ public class Scraper {
 		try {
 			int seconds = random.nextInt(2) + 1;
 			LOG.debug("waiting for {} seconds", seconds);
-			Thread.sleep(seconds * 1000);
+			Thread.sleep(seconds * 50);
 		} catch (InterruptedException e) {
 			// do nothing
 		}
